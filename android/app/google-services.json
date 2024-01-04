@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661065647312",
+    "project_id": "berrypay-wise-ai-demo",
+    "storage_bucket": "berrypay-wise-ai-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661065647312:android:d16b7926bb41a778854ad5",
+        "android_client_info": {
+          "package_name": "com.berrypay.global.kyc_sdk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0xB102G_x-XQogeRxFElprfub1GxXab4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
