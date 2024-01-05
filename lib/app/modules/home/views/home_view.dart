@@ -14,8 +14,9 @@ class _HomeViewState extends State<HomeView> {
 
   Future<void> _initializeWiseAI() async {
     try {
-      print('WiseAI Initialize try');
-      await WiseAIService.initialize("eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3aXNlYWkiLCJzdWIiOiJ3aXNlYWktYXBpIiwiaWQiOiIyMDAiLCJubSI6IkJlcnJ5UGF5IERlbW8iLCJtaXNjIjoiIiwidmVyIjozfQ.-rhngi6Z9GQJxx1Zq1gtfr9AVUTj6yPzl4KuCtm2Xtc", "https://wiseconsole-demo.wiseai.tech/");
+      await WiseAIService.initialize(token: "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3aXNlYWkiLCJzdWIiOiJ3aXNlYWktYXBpIiwiaWQiOiIyMDAiLCJubSI6IkJlcnJ5UGF5IERlbW8iLCJtaXNjIjoiIiwidmVyIjozfQ.-rhngi6Z9GQJxx1Zq1gtfr9AVUTj6yPzl4KuCtm2Xtc",
+      urlEndpoint: "https://wiseconsole-demo.wiseai.tech/",
+      );
     } catch (e) {
       print('Failed to initialize WiseAI homeview: $e');
     }
